@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("./fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url("./fonts/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("./fonts/Lato-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    background: #ffffff;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    background: #222222;
+  }
+
+  h1 {
+    font-family: "Lato-Black";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #222222;
+  }
+
+  h2 {
+    font-family: "Lato-Bold";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #F16D7F;
+  }
+
+  h3 {
+    font-family: "Lato-Bold";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #222222;
+  }
+
+  h4 {
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
+  p {
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    text-align: center;
+  }
+
+  .header {
+    background: #222222;
+  }
+
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+  }
+
+  .header__btn {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header__leftSide {
+    display: flex;
+    justify-content: start;
+    gap: 41px;
+  }
+
+  .header__rightSide {
+    display: flex;
+    justify-content: end;
+    gap: 33px;
+  }
+
+  .banner {
+    background: #F1E4E6;
+  }
+
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+  }
+
+  .banner__img {
+    background: #F1E4E6;
+  }
+
+  .banner__text {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 12px solid #F16D7F;
+    height: 93px;
+    width: 377px;
+    padding-left: 16px;
+    margin-top: 290px;
+    margin-bottom: 380px;
+    margin-right: 324px;
+  }
+
+  .banner__text-fashion {
+    font-family: "Lato-Bold";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #F16D7F;
+    text-align: left;
+    padding-left: 9px;
+  }
+
+  .offers {
+    display: flex;
+    margin-top: 65px;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .offerForWomen {
+    background-image: url(./img/offer_for_women_img.png);
+    width: 360px;
+    height: 260px;
+  }
+
+  .offerForMen {
+    background-image: url(./img/offer_for_men_img.png);
+    width: 360px;
+    height: 260px;
+  }
+
+  .offerForKids {
+    background-image: url(./img/offer_for_kids_img.png);
+    width: 360px;
+    height: 260px;
+  }
+
+  .offerAccesories {
+    background-image: url(./img/offer_accesories_img.png);
+    width: 1140px;
+    height: 180px;
+    .offer__text {
+      display: flex;
+      flex-direction: column;
+      padding: 65px 490px;
+      align-items: center;
+    }
+    margin-bottom: 96px;
+  }
+
+  .offer__background {
+    background: rgba(33, 22, 22, 0.7);
+    width: 100%;
+    height: 100%;
+  }
+
+  .offer__text {
+    display: flex;
+    flex-direction: column;
+    padding: 105px 103px;
+    align-items: center;
+  }
+
+  .products__title {
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .productCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .productCard {
+    background: #F8F8F8;
+    width: 360px;
+  }
+
+  .productCards__downSide {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    gap: 18px;
+  }
+
+  .productCards__title {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+  }
+
+  .productCards__description {
+    font-weight: 300;
+    text-align: left;
+    width: 314px;
+  }
+
+  .productCards__price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    text-align: left;
+  }
+
+.downBtn {
+  display: flex;
+  align-items: center;
+  padding: 15px 39px;
+  border: 1px solid rgb(255, 106, 106);
+  font-family: "Lato-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #F26376;
+  background: #ffffff;
+  margin-bottom: 60px;
+}
