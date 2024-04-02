@@ -323,14 +323,17 @@ h3 {
 
 .offerForWomen {
   background-image: url(./img/tablet_offer_women.png);
+  #
 }
 
 .offerForMen {
   background-image: url(./img/tablet_offer_men.png);
+  #
 }
 
 .offerForKids {
   background-image: url(./img/tablet_offer_kids.png);
+  #
 }
 
 .offer__text {
@@ -438,5 +441,143 @@ p {
 
 .downBtn {
   margin-bottom: 70px;
+}
+}
+
+
+
+@media(max-width: 768px) {
+.container {
+  max-width: 375px;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 45.6px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.header {
+  height: 74px;
+}
+
+.header__leftSide {
+  padding-left: 16px;
+}
+
+.header__rightSide {
+  padding-right: 16px;
+}
+
+.header__btn-user {
+  display: none;
+}
+
+.header__btn-cart {
+  display: none;
+}
+
+.banner__img {
+  display: none;
+}
+
+.banner-content {
+  height: 363px;
+}
+
+.banner__text-fashion {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.banner__text {
+  width: 238px;
+  padding-bottom: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 34px;
+  margin-left: 56px;
+}
+
+.offers {
+  margin-top: 64px;
+  gap: 32px;
+  margin-bottom: 32px;
+  flex-direction: column;
+  padding: 0px 16px;
+}
+
+.offerForWomen {
+  background-image: url(./img/phone_offer_women.png);
+  height: 247px;
+}
+
+.offerForMen {
+  background-image: url(./img/phone_offer_men.png);
+  height: 247px;
+  }
+
+.offerForKids {
+  background-image: url(./img/phone_offer_kids.png);
+  height: 247px;
+}
+
+.offer__text {
+  display: flex;
+  flex-direction: column;
+  padding: 98px 95px;
+}
+
+.offerAccesories {
+  background-image: url(./img/phone_offer_accesories_img.png);
+}
+
+.offer__text-accesories {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 92px;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.offerDownPart {
+  padding: 0px 16px;
+}
+
+p {
+  color: #9F9F9F;
+}
+
+.productCards {
+  display: flex;
+  flex-direction: column;
+  gap: 15.6px;
+  margin-top: 64.7px;
+  margin-bottom: 40.6px;
+  padding: 0px 8px;
+}
+
+.productCards__downSide {
+  padding: 25px 28px 20px 16px;
+  gap: 0px;
+}
+
+.productCards__title {
+  margin-bottom: 12.6px;
+}
+
+.productCards__description {
+  font-weight: 400;
+  text-align: left;
+  width: 318px;
+  margin-bottom: 18px;
+}
+
+.downBtn {
+  margin-bottom: 85px;
 }
 }
